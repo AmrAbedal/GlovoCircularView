@@ -13,6 +13,7 @@
 		A06CF98C24361010005B37CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF98B24361010005B37CA /* Assets.xcassets */; };
 		A06CF98F24361010005B37CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF98E24361010005B37CA /* Preview Assets.xcassets */; };
 		A06CF99224361010005B37CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06CF99024361010005B37CA /* LaunchScreen.storyboard */; };
+		A06CF99B24367379005B37CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF99A24367379005B37CA /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A06CF98E24361010005B37CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A06CF99124361010005B37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06CF99324361010005B37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06CF99A24367379005B37CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A06CF9872436100E005B37CA /* SceneDelegate.swift */,
 				A06CF9892436100E005B37CA /* ContentView.swift */,
 				A06CF98B24361010005B37CA /* Assets.xcassets */,
+				A06CF99A24367379005B37CA /* Colors.xcassets */,
 				A06CF99024361010005B37CA /* LaunchScreen.storyboard */,
 				A06CF99324361010005B37CA /* Info.plist */,
 				A06CF98D24361010005B37CA /* Preview Content */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06CF99224361010005B37CA /* LaunchScreen.storyboard in Resources */,
+				A06CF99B24367379005B37CA /* Colors.xcassets in Resources */,
 				A06CF98F24361010005B37CA /* Preview Assets.xcassets in Resources */,
 				A06CF98C24361010005B37CA /* Assets.xcassets in Resources */,
 			);
