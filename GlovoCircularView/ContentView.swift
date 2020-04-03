@@ -37,7 +37,7 @@ struct CustomView: View {
     }
    var body: some View {
          VStack {
-            Circular(numofArcs: 5).stroke(style: .init(lineWidth: 10)).frame(width: 300, height: 300, alignment: .center).foregroundColor(.green)
+            Circular(numofArcs: 5).stroke(style: .init(lineWidth: 10)).frame(width: 300, height: 300, alignment: .center).foregroundColor(.green).background(Circle().foregroundColor(.red))
 //            Heart().stroke()
                }     }
     
