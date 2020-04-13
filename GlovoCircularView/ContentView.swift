@@ -26,8 +26,9 @@ struct CustomView: View {
                  Item(index: 3, name: "3",color:.yellow),
                  Item(index: 4, name: "4",color:.blue),
                  Item(index: 5, name: "5",color:.gray),
-                 Item(index: 6, name: "6",color: .black)]
+                 Item(index: 6, name: "6",color: .purple)]
    var body: some View {
+    
     Circular2(items:items, arcCell: { item in
         return ArcCell.init(name: item.name)
     }
@@ -54,9 +55,9 @@ struct Circular2: View {
                 self.getArcView(item: item)
                 
                }
-            ForEach(items){ item in
-             self.getArcCell(item: item, arcCell: self.arcCell(item))
-            }
+//            ForEach(items){ item in
+//             self.getArcCell(item: item, arcCell: self.arcCell(item))
+//            }
     }
     }
     private func getArcView(item: Item) -> AnyView {
