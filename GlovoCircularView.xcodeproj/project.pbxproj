@@ -14,6 +14,10 @@
 		A06CF98F24361010005B37CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF98E24361010005B37CA /* Preview Assets.xcassets */; };
 		A06CF99224361010005B37CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06CF99024361010005B37CA /* LaunchScreen.storyboard */; };
 		A06CF99B24367379005B37CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF99A24367379005B37CA /* Colors.xcassets */; };
+		A07C2A4E244C725D00C38DDA /* GlovoCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C2A4D244C725D00C38DDA /* GlovoCircularView.swift */; };
+		A07C2A50244C72AE00C38DDA /* GlovoCircleArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C2A4F244C72AE00C38DDA /* GlovoCircleArc.swift */; };
+		A07C2A52244C735000C38DDA /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C2A51244C735000C38DDA /* ItemsListView.swift */; };
+		A07C2A54244C739500C38DDA /* ExtensionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C2A53244C739500C38DDA /* ExtensionDouble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A06CF99124361010005B37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06CF99324361010005B37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06CF99A24367379005B37CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A07C2A4D244C725D00C38DDA /* GlovoCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoCircularView.swift; sourceTree = "<group>"; };
+		A07C2A4F244C72AE00C38DDA /* GlovoCircleArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlovoCircleArc.swift; sourceTree = "<group>"; };
+		A07C2A51244C735000C38DDA /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		A07C2A53244C739500C38DDA /* ExtensionDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDouble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				A06CF9852436100E005B37CA /* AppDelegate.swift */,
 				A06CF9872436100E005B37CA /* SceneDelegate.swift */,
 				A06CF9892436100E005B37CA /* ContentView.swift */,
+				A07C2A53244C739500C38DDA /* ExtensionDouble.swift */,
+				A07C2A51244C735000C38DDA /* ItemsListView.swift */,
+				A07C2A4D244C725D00C38DDA /* GlovoCircularView.swift */,
+				A07C2A4F244C72AE00C38DDA /* GlovoCircleArc.swift */,
 				A06CF98B24361010005B37CA /* Assets.xcassets */,
 				A06CF99A24367379005B37CA /* Colors.xcassets */,
 				A06CF99024361010005B37CA /* LaunchScreen.storyboard */,
@@ -151,6 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06CF9862436100E005B37CA /* AppDelegate.swift in Sources */,
+				A07C2A52244C735000C38DDA /* ItemsListView.swift in Sources */,
+				A07C2A54244C739500C38DDA /* ExtensionDouble.swift in Sources */,
+				A07C2A4E244C725D00C38DDA /* GlovoCircularView.swift in Sources */,
+				A07C2A50244C72AE00C38DDA /* GlovoCircleArc.swift in Sources */,
 				A06CF9882436100E005B37CA /* SceneDelegate.swift in Sources */,
 				A06CF98A2436100E005B37CA /* ContentView.swift in Sources */,
 			);
