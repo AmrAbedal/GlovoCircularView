@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A06CF9862436100E005B37CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06CF9852436100E005B37CA /* AppDelegate.swift */; };
-		A06CF9882436100E005B37CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06CF9872436100E005B37CA /* SceneDelegate.swift */; };
 		A06CF98A2436100E005B37CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06CF9892436100E005B37CA /* ContentView.swift */; };
 		A06CF98C24361010005B37CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF98B24361010005B37CA /* Assets.xcassets */; };
 		A06CF98F24361010005B37CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06CF98E24361010005B37CA /* Preview Assets.xcassets */; };
@@ -18,8 +16,6 @@
 
 /* Begin PBXFileReference section */
 		A06CF9822436100E005B37CA /* GlovoCircularView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlovoCircularView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A06CF9852436100E005B37CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A06CF9872436100E005B37CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A06CF9892436100E005B37CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A06CF98B24361010005B37CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06CF98E24361010005B37CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 		A06CF9842436100E005B37CA /* GlovoCircularView */ = {
 			isa = PBXGroup;
 			children = (
-				A06CF9852436100E005B37CA /* AppDelegate.swift */,
-				A06CF9872436100E005B37CA /* SceneDelegate.swift */,
 				A06CF9892436100E005B37CA /* ContentView.swift */,
 				A06CF98B24361010005B37CA /* Assets.xcassets */,
 				A06CF99A24367379005B37CA /* Colors.xcassets */,
@@ -150,8 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06CF9862436100E005B37CA /* AppDelegate.swift in Sources */,
-				A06CF9882436100E005B37CA /* SceneDelegate.swift in Sources */,
 				A06CF98A2436100E005B37CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +285,7 @@
 				DEVELOPMENT_TEAM = FX2Z63PGT5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GlovoCircularView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +306,7 @@
 				DEVELOPMENT_TEAM = FX2Z63PGT5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GlovoCircularView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
